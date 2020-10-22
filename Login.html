@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+<head>
+<title> Admin Login </title>
+
+<style>
+	table
+	{
+		margin: auto;
+		text-align:center;
+		width:20%;
+		background-color: black;
+		border: 3px solid white;
+		border-radius: 25px;	
+		background: rgba(0,0,0,0.8);
+	}
+
+	#name
+	{
+	width: 300px;
+	height: 32px;
+	border: 0;
+	outline: 0;
+	background: transparent;
+	border-bottom: 3px solid white;
+	color: white;
+	font-size: 25px;
+	}
+	
+	input::-webkit-input-placeholder
+	{
+	font-size: 20px;
+	Line-height: 3;
+	color: white;
+	}
+
+	#btn
+	{
+	width: 250px;
+	background-color: #1aa3ff;
+	height: 35px;
+	font-size: 20px;
+	border-radius:100px;
+	}
+
+</style>
+
+</head>
+
+<body background="hack.png">
+
+<br><br><br><br><br>
+
+<form method="post" action="connect2.php">
+
+<table width="25%" border="0" cellspacing="40" align="center">
+
+	<tr>
+		<td align="center"> <img src="admin.jpg" width="70%" >  </td>
+	</tr>
+		
+	<tr>
+		<td> <input type="text" id="name" placeholder="Please enter your email address">  </td>
+	</tr>
+	
+	<tr>
+		<td> <input type="password" id="name" placeholder="**************"></td>
+	</tr>
+
+	<tr>
+		<td> <input type="submit" id="btn" value="Login"></td>
+	</tr>
+
+
+
+</table>
+</form>
+</body>
+
+
+</html>
